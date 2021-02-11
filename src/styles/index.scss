@@ -1,13 +1,76 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+body{
+    background: black;
+    font-size: 1rem;
+    background: #454545;
+    text-shadow: 2px 2px green;
+  color: yellowgreen;
 
-*/
+
+
+}
+button {
+    background: #6d5959;
+}
+.modal-content{
+    background: #6d5959;
+}
+.gameArea {
+    margin-top: 40px;
+    min-height: 60vh;
+    min-width: 60vw;
+    max-height: 60vh;
+    max-width: 60vm;
+    margin: auto;
+    justify-content:center;
+
+    margin-top:10%;
+
+}
+
+.gameBox {
+    padding-top:10%;
+    max-height: 33%;
+    max-width: 33%;
+    padding-bottom: -5%;
+
+
+
+    font-size:2rem;
+    text-align: center;
+
+    text-shadow: 2px 2px green;
+    color: yellowgreen;
+
+
+
+
+
+}
+.centered {
+ position: fixed;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50, -50%);
+}
+.congrats{
+  padding:5px;
+  font-style:italic;
+  text-align:center;
+}
+.playAgainButton {
+
+ border-radius:5px;
+}
+.bl{
+ border-left:3px groove greenyellow;
+}
+.bb{
+ border-bottom:3px groove greenyellow;
+}
+.br{
+ border-right:3px groove greenyellow;
+}
